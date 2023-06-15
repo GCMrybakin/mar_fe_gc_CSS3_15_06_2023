@@ -194,3 +194,39 @@ input {
     grid-column: 7 / 8;
     grid-row: 6 / 7;
 }
+
+#Footer {
+    position: absolute;
+    bottom: 0;
+    background: #424242;
+    width: 100%;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#Footer div {
+    padding: 5px;
+}
+
+#Footer div .links div{
+    padding: 5px;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Footer-Div1 {
+    padding: 10px 30px;
+    border-bottom:1px solid #dadce0;
+    font-size:15px;
+    color:#70757a;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between
+}
