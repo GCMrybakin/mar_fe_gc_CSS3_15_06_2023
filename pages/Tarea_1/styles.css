@@ -94,6 +94,15 @@ input {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.nav-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
 #Footer {
     position: absolute;
     bottom: 0;
@@ -119,4 +128,14 @@ input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.Footer-Div1 {
+    padding: 10px 30px;
+    border-bottom:1px solid #dadce0;
+    font-size:15px;
+    color:#70757a;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between
 }
