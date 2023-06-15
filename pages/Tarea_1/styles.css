@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    max-height: 100vh;
+    color: black;
+    font-family: arial,sans-serif;
+    overflow: hidden;
+}
+
+nav div{
+    padding: 6px;
+    margin: 4px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#logo_busquedas {
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 300px);
+}
+
+#navTop {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+button:hover {
+    border: 1px solid #999999;
+}
+
+.linkAzul {
+    color: #1a0dab;
+}
+
+.linkAzul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover {
+    background-color: #c0c0c0;
+    border-radius: 50%;
+}
+
+input {
+    all: unset;
+    color: black;
+    padding-top: 1px;
+    padding-left: 5px;
+}
+
+.barra_busqueda {
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.barra_busqueda:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#Footer {
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    background: #f2f2f2;
+    width: 100%;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#Footer div {
+    padding: 5px;
+}
+
+#Footer div .links div{
+    padding: 5px;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
